@@ -1,5 +1,6 @@
 [
   {
+    "id": 6,
     "jobTitle": "NodeJS Developer", 
     "ellapsedTime": {
       "startDate": "2020-04-21T00:00:00.000Z",
@@ -15,6 +16,7 @@
     "client": null
   },
   {
+    "id": 5,
     "jobTitle": "Analyst Developer", 
     "ellapsedTime": {
       "startDate": "2018-10-08T00:00:00.000Z",
@@ -30,6 +32,7 @@
     "client": "SPF Finances"
   },
   {
+    "id": 4,
     "jobTitle": "Dutch Teacher", 
     "ellapsedTime": {
       "startDate": "2000-00-00T00:00:00.000Z",
@@ -43,6 +46,7 @@
     "client": "Athénée Marguerite Yourcenar"
   },
   {
+    "id": 3,
     "jobTitle": "Non-Commissioned Officer", 
     "ellapsedTime": {
       "startDate": "2012-08-21T00:00:00.000Z",
@@ -58,6 +62,7 @@
     "client": "F16 Air Base"
   },
   {
+    "id": 2,
     "jobTitle": "Customer & Ground Support Agent", 
     "ellapsedTime": {
       "startDate": "2011-00-00T00:00:00.000Z",
@@ -73,6 +78,7 @@
     "client": null
   },
   {
+    "id": 1,
     "jobTitle": "Check-in & Boarding Agent", 
     "ellapsedTime": {
       "startDate": "2008-02-01T00:00:00.000Z",
