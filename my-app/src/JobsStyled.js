@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-export const JobsContainerStyled = styled.div`
+export const JobsStyled = styled.div`
   width: 400px;
   margin: 30px auto;
 `;
 
-export const JobsList = styled.ul`
+export const JobsTimelineStyled = styled.ul`
   list-style: none;
   padding: 0px 20px;
   background-color: #fff;
@@ -15,7 +15,7 @@ export const JobsList = styled.ul`
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16);
 `;
 
-export const JobItem = styled.li`
+export const JobItemStyled = styled.li`
   display: flex;
   flex-direction: column;
   padding: 10px 0px;
@@ -25,7 +25,7 @@ export const JobItem = styled.li`
   }
 `;
 
-export const JobTitle = styled.span`
+export const JobTitleStyled = styled.span`
   font-size: 18px;
   color: black;
   margin-bottom: 5px;

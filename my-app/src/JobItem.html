@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jobs HTML</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <style>
+    ul.dashed {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 1em;
+    }
+    ul.dashed > li:before {
+        display: inline-block;
+        content: "-";
+        width: 1em;
+    }
+    .jobTimeline {
+      list-style-type: none;
+      width: fit-content;
+      font-family: 'Arial', sans-serif;
+    }
+    .jobItem {
+      border: 2px outset black;
+      background-color: rgb(129, 236, 236);
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: left;
+      margin-top: 10px;
+    }
+    .jobTitle {
+      font-weight: bolder;
+    }
+    .jobTasks {
+      list-style-type: none;
+    }
+    </style>
+</head>
+
+<body>
+  <ul class="jobTimeline">
+    <li>
+      <div class="jobItem">
+        <div class="jobTitle">Job Title</div>
+        <div>Brussels</div>
+        <ul class="dashed">
+          <li>Task 1</li>
+        </ul>
+      </div>
+      <div class="jobItem">
+        <div class="jobTitle">Another Job Title</div>
+        <div>Schaerbeek</div>
+        <ul class="dashed">
+          <li>Task 1</li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>

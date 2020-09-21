@@ -1,25 +1,25 @@
 import React from 'react';
-import { 
-  JobsContainerStyled, 
-  JobsList,
-  JobItem, 
-  JobTitle,
+import {
+  JobsStyled, 
+  JobsTimelineStyled,
+  JobItemStyled,
+  JobTitleStyled,
 } from './JobsStyled';
 
 const jobs = require('./data/jobs.json');
 
 const Jobs = () => {
   return (
-    <JobsContainerStyled>
-      <JobsList>
+    <JobsStyled>
+      <JobsTimelineStyled>
       {jobs.map(({ id, jobTitle, employer, jobPlace }) => (
-        <JobItem key={id}>
-          <JobTitle>{jobTitle}</JobTitle>
+        <JobItemStyled key={id}>
+          <JobTitleStyled>{jobTitle}</JobTitleStyled>
           <div>{employer} - {jobPlace}</div>
-        </JobItem>
+        </JobItemStyled>
       ))}
-      </JobsList>
-    </JobsContainerStyled>
+      </JobsTimelineStyled>
+    </JobsStyled>
   )
 }
 
