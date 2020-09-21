@@ -16,21 +16,28 @@
         content: "-";
         width: 1em;
     }
-    .jobTimeline {
+    .jobsTimeline {
       list-style-type: none;
       width: fit-content;
       font-family: 'Arial', sans-serif;
+      list-style: none;
     }
     .jobItem {
-      border: 2px outset black;
-      background-color: rgb(129, 236, 236);
+      border-left: 3px solid;
+      background-color: whitesmoke;
+      box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16);
       padding-left: 10px;
       padding-right: 10px;
       text-align: left;
-      margin-top: 10px;
+      margin-top: 20px;
     }
     .jobTitle {
       font-weight: bolder;
+      padding: 5px;
+    }
+    .jobDetails {
+      padding-left: 10px;
+      padding-bottom: 5px;
     }
     .jobTasks {
       list-style-type: none;
@@ -39,18 +46,18 @@
 </head>
 
 <body>
-  <ul class="jobTimeline">
+  <ul class="jobsTimeline">
     <li>
       <div class="jobItem">
         <div class="jobTitle">Job Title</div>
-        <div>Brussels</div>
+        <div class="jobDetails">Brussels</div>
         <ul class="dashed">
           <li>Task 1</li>
         </ul>
       </div>
       <div class="jobItem">
         <div class="jobTitle">Another Job Title</div>
-        <div>Schaerbeek</div>
+        <div class="jobDetails">Schaerbeek</div>
         <ul class="dashed">
           <li>Task 1</li>
         </ul>

@@ -4,6 +4,9 @@ import {
   JobsTimelineStyled,
   JobItemStyled,
   JobTitleStyled,
+  JobDetailsStyled,
+  JobTasksStyled,
+  TaskItemStyled,
 } from './JobsStyled';
 
 const jobs = require('./data/jobs.json');
@@ -12,10 +15,15 @@ const Jobs = () => {
   return (
     <JobsStyled>
       <JobsTimelineStyled>
-      {jobs.map(({ id, jobTitle, employer, jobPlace }) => (
+      {jobs.map(({ id, jobTitle, employer, jobPlace, tasks }) => (
         <JobItemStyled key={id}>
           <JobTitleStyled>{jobTitle}</JobTitleStyled>
-          <div>{employer} - {jobPlace}</div>
+          <JobDetailsStyled>{employer} - {jobPlace}</JobDetailsStyled>
+          {tasks.map((task, index) => (
+          <JobTasksStyled key={index}>
+            <TaskItemStyled>{task}</TaskItemStyled>
+          </JobTasksStyled>
+          ))}
         </JobItemStyled>
       ))}
       </JobsTimelineStyled>

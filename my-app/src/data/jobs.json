@@ -8,7 +8,10 @@
     },
     "employer": "Stoomlink",
     "jobPlace": "Brussels",
-    "tasks": "....",
+    "tasks": [
+      "ETL management",
+      "Data modelization"
+    ],
     "tools": [
       "JavaScript", "VSCode", "Docker", "Postman", "MongoDB", "circleci", "gtfs feeds"
     ],
@@ -24,7 +27,10 @@
     }, 
     "employer": "Centran SPRL",
     "jobPlace": "Brussels",
-    "tasks": "Football",
+    "tasks": [
+      "Dev Java",
+      "SQL query"
+    ],
     "tools": [
       "Java", "Maven", "IntelliJ", "SoapUI", "Weblogic", "SQL"
     ],
@@ -40,7 +46,9 @@
     },
     "employer": "City of Brussels",
     "jobPlace": "Laeken",
-    "tasks": "Dutch Teacher in Secondary School",
+    "tasks": [
+      "Dutch Teacher in Secondary School"
+    ],
     "tools": null,
     "product": null,
     "client": "Athénée Marguerite Yourcenar"
@@ -54,7 +62,9 @@
     },
     "employer": "Belgian Defence",
     "jobPlace": "Florennes",
-    "tasks": "Air Trafic Control Support",
+    "tasks": [
+      "Air Trafic Control Support"
+    ],
     "tools": [
       "Radar", "RT conventions", "Local meteo forecasts & conditions", "Military Conventions"
     ],
@@ -70,7 +80,10 @@
     },
     "employer": "JetAirFly",
     "jobPlace": "Charleroi Airport",
-    "tasks": "...",
+    "tasks": [
+      "CSA",
+      "GSA"
+    ],
     "tools": [
       "Ticketing Software", "NL"
     ],
@@ -86,7 +99,10 @@
     },
     "employer": "Charleroi Airport",
     "jobPlace": "Charleroi",
-    "tasks": "...",
+    "tasks": [
+      "Check-in of a flight",
+      "Boarding"
+    ],
     "tools": null,
     "product": null,
     "client": null
