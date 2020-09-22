@@ -1,12 +1,24 @@
 import React from 'react';
-import './App.css';
-import Jobs from './Jobs';
+import Navbar from './pages/Navbar/Navbar';
+import { BrowserRouter, Route } from 'react-router-dom';
+import { 
+  Home,
+  AboutMe,
+  AboutThis, 
+  ChronologicalView, 
+} from './pages/index';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Jobs></Jobs>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar/>
+        <Route exact path='/' component={Home} />
+        <Route path='/about-me' component={AboutMe} />
+        <Route path='/about-this' component={AboutThis} />
+        <Route path='/chrono-view' component={ChronologicalView} />
+      </div>
+    </BrowserRouter>
   );
 }
 
